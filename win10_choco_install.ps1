@@ -67,6 +67,7 @@ choco install -y jq
 
 # dev-fonts
 choco install -y firacode
+choco install -y cascadiafonts
 
 # PHP
 choco install -y composer
