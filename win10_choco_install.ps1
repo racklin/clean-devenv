@@ -34,6 +34,9 @@ choco install -y vagrant
 choco install -y vmwareworkstation
 choco install -y vagrant-vmware-utility
 
+# virtualbox
+choco install -y --params "/ExtensionPack" virtualbox
+
 
 # docker
 choco install -y docker
@@ -63,6 +66,7 @@ choco install -y plantuml
 choco install -y graphviz
 choco install -y poedit
 choco install -y jq
+choco install -y powertoys
 
 
 # dev-fonts
