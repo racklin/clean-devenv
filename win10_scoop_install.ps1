@@ -76,3 +76,4 @@ sudo scoop install nerd-fonts/JetBrains-Mono
 # python and tools
 scoop install python
 pip install httpie
+pip install translate-toolkit
