@@ -48,6 +48,11 @@ Install devtools:
 brew bundle install --file=Brewfile-devtools
 ```
 
+Install apps from Mac App Store:
+```
+sh mas-apps.sh
+```
+
 ## About me
 
 - [Twitter](https://twitter.com/racklin)
