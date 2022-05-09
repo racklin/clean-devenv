@@ -12,11 +12,13 @@ Make sure you have installed all of the following prerequisites on your developm
   ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
+
   Install mas
   ```
   brew tap Homebrew/bundle
   brew install mas
   ```
+  
   Install xcode:
   ```
   xcode-select --install
@@ -25,7 +27,7 @@ Make sure you have installed all of the following prerequisites on your developm
 - [Scoop](https://scoop.sh/)
   ```
   > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
-> Invoke-WebRequest get.scoop.sh | Invoke-Expression
+  > Invoke-WebRequest get.scoop.sh | Invoke-Expression
   ```
 - [Chocolatey](https://chocolatey.org/)
   ```
@@ -40,11 +42,11 @@ Install base apps:
 ```
 brew bundle install --file=Brewfile-base
 ```
+
 Install devtools:
 ```
 brew bundle install --file=Brewfile-devtools
 ```
-
 
 ## About me
 
