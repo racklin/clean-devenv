@@ -23,6 +23,10 @@ Make sure you have installed all of the following prerequisites on your developm
   ```
   xcode-select --install
   ```
+  Install Rosetta 2 for M1 
+  ```
+  softwareupdate --install-rosetta
+  ```
 ### Windows
 - [Scoop](https://scoop.sh/)
   ```
