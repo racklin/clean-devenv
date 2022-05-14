@@ -1,0 +1,6 @@
+tap "homebrew/cask"
+cask "retroarch-metal"
+cask "sony-ps-remote-play"
+cask "spotify"
+cask "steam"
+cask "vlc"

@@ -1,0 +1,4 @@
+tap "homebrew/cask"
+cask "voov-meeting"
+cask "wechat"
+cask "zoom"

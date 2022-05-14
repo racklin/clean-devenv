@@ -13,20 +13,16 @@ Make sure you have installed all of the following prerequisites on your developm
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 
-  Install mas
-  ```
-  brew tap Homebrew/bundle
-  brew install mas
-  ```
-  
   Install xcode:
   ```
   xcode-select --install
   ```
+
   Install Rosetta 2 for M1 
   ```
   softwareupdate --install-rosetta
   ```
+
 ### Windows
 - [Scoop](https://scoop.sh/)
   ```
@@ -54,8 +50,15 @@ brew bundle install --file=Brewfile-devtools
 
 Install apps from Mac App Store:
 ```
-sh mas-apps.sh
+brew bundle install --file=brewfile-mas
 ```
+
+Microsoft and Entertainment
+```
+brew bundle install --file=brewfile-microsoft
+brew bundle install --file=brewfile-entertainment
+```
+
 
 ## About me
 

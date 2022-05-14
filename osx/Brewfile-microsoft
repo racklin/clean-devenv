@@ -1,0 +1,7 @@
+tap "homebrew/cask"
+cask "microsoft-auto-update"
+cask "microsoft-edge"
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-word"
+cask "onedrive"
