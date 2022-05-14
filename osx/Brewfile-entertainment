@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+cask "iina"
 cask "retroarch-metal"
 cask "sony-ps-remote-play"
 cask "spotify"
