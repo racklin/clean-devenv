@@ -15,65 +15,28 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
 # Basic tools
 scoop install 7zip git git-lfs sudo
-scoop install wget curl telnet ag jq
 scoop install aria2
+scoop install wget curl telnet jq
+scoop install fzf
+scoop install ghq
+scoop install ripgrep
+scoop install uutils-coreutils
+scoop install lsd
+scoop install starship
+scoop install gnupg
 
 # add buckets
-Write-Host "adding scoop-extras scoop-nonportable scoop-nerd-fonts  bucket..."
+Write-Host "adding scoop-extras scoop-nerd-fonts  bucket..."
 scoop bucket add extras
-scoop bucket add nonportable
 scoop bucket add nerd-fonts
-scoop bucket add java
-
-
-# install browser globally
-scoop install extras/firefox
-
 
 # Editor
-scoop install vim
-#scoop install extras/notepadplusplus
-scoop install extras/vscode
-
+#scoop install neovim
+#scoop install extras/vscode
 
 # misc
-# scoop install extras/windows-terminal extras/vcredist2019 
-scoop install extras/powertoys
-scoop install extras/steam
-scoop install extras/vlc
-scoop install extras/foxit-reader
-scoop install extras/oh-my-posh
 scoop install screentogif
 
-
-
-# Virtualbox / Docker
-scoop install vagrant
-scoop install nonportable/virtualbox-with-extension-pack-np
-scoop install docker
-scoop install minikube kubeadm kubectl kubelet
-
-
-# Android Emulator
-scoop install nonportable/bluestacks-np
-
-# jdk and tools
-scoop install java/openjdk
-scoop install extras/sourcetrail
-
-# uml tools
-scoop install plantuml
-scoop install graphviz
-
-
-# jetbrains
-scoop install extras/jetbrains-toolbox
-
-
 # nerdfonts
-sudo scoop install nerd-fonts/JetBrains-Mono
+scoop install nerd-fonts/JetBrainsMono-NF
 
-# python and tools
-scoop install python
-pip install httpie
-pip install translate-toolkit

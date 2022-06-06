@@ -1,17 +1,9 @@
-# Set-ExecutionPolicy RemoteSigned
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-Theme Agnoster
+# Functions
+Function ghqcd {Set-Location $(ghq.exe list --full-path | fzf.exe)}
 
-# alias
-Set-Alias vi vim
+# Alias
+Set-Alias ls "lsd"
 
 
-# vagrant
-#$ENV:VAGRANT_DEFAULT_PROVIDER = "vmware_desktop"
-
-#
-# docker-machine
-#
-# Run this command to configure your shell:
-# & "docker-machine.exe" env | Invoke-Expression
+# starship shell
+Invoke-Expression (&starship init powershell)
