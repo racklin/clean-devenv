@@ -10,16 +10,7 @@
 					"PackageIdentifier" : "JGraph.Draw"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.DataGrip"
-				},
-				{
 					"PackageIdentifier" : "JetBrains.Toolbox"
-				},
-				{
-					"PackageIdentifier" : "JetBrains.PHPStorm"
-				},
-				{
-					"PackageIdentifier" : "JetBrains.WebStorm"
 				},
 				{
 					"PackageIdentifier" : "Docker.DockerDesktop"
