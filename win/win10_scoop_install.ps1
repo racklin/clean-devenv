@@ -14,9 +14,14 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
 
 # Basic tools
-scoop install 7zip git git-lfs sudo
+scoop install 7zip
+scoop install git
+scoop install git-lfs
+scoop install sudo
 scoop install aria2
-scoop install wget curl telnet jq
+scoop install wget
+scoop install curl
+scoop install jq
 scoop install fzf
 scoop install ghq
 scoop install ripgrep
@@ -24,6 +29,7 @@ scoop install uutils-coreutils
 scoop install lsd
 scoop install starship
 scoop install gnupg
+scoop install ntop
 
 # add buckets
 Write-Host "adding scoop-extras scoop-nerd-fonts  bucket..."
