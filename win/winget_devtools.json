@@ -13,10 +13,16 @@
 					"PackageIdentifier" : "JetBrains.DataGrip"
 				},
 				{
-					"PackageIdentifier" : "Docker.DockerDesktop"
+					"PackageIdentifier" : "JetBrains.Toolbox"
 				},
 				{
 					"PackageIdentifier" : "JetBrains.PHPStorm"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.WebStorm"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
