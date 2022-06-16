@@ -22,6 +22,9 @@
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
+					"PackageIdentifier" : "Google.Drive"
+				},
+				{
 					"PackageIdentifier" : "Obsidian.Obsidian"
 				},
 				{
@@ -29,6 +32,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.18"
