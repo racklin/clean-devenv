@@ -46,3 +46,8 @@ scoop install screentogif
 # nerdfonts
 scoop install nerd-fonts/JetBrainsMono-NF
 
+# powershell 
+scoop install extras/psfzf
+scoop install extras/terminal-icons
+scoop install extras/z
+
