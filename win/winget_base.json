@@ -37,7 +37,7 @@
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.18"
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.18.JDK"
 				}
 			],
 			"SourceDetails" : 
